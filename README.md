@@ -1,4 +1,4 @@
-# .NET MAUI Community Toolkit Popup
+# .NET MAUI Community Toolkit Popup Solution
 
 The .NET MAU Community Toolkit is a collection of common elements for mobile development with .Net MAUI that people tend to replicate across multiple apps. It simplifies and demonstrates common developer tasks when building apps with Xamarin.Forms.
 
@@ -25,19 +25,13 @@ In order to use the .NET MAUI Community Toolkit you need to call the extension m
 using CommunityToolkit.Maui;
 
 
-
-public static class MauiProgram
-{
-	public static MauiApp CreateMauiApp()
-	{
-		var builder = MauiApp.CreateBuilder();
 		
-		// Initialise the toolkit
-		builder.UseMauiApp<App>().UseMauiCommunityToolkit();
+// Initialise the toolkit
 
-		// the rest of your logic...
-	}
-}
+builder.UseMauiApp<App>().UseMauiCommunityToolkit();
+
+// the rest of your logic...
+	
 
 # XAML usage
 In order to make use of the toolkit within XAML you can use this namespace:
