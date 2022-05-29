@@ -24,6 +24,8 @@ In order to use the .NET MAUI Community Toolkit you need to call the extension m
 
 using CommunityToolkit.Maui;
 
+
+
 public static class MauiProgram
 {
 	public static MauiApp CreateMauiApp()
